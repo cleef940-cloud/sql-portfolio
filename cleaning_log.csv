@@ -1,0 +1,6 @@
+issue,column,rows_affected,action
+Duplicate rows,all,165,"Dropped, kept first"
+Impossible age (<18 or >100),person_age,5,Dropped rows
+Employment length longer than plausible working life,person_emp_length,737,"Set to blank, then filled with median"
+Missing values,person_emp_length,1624,Filled with median
+Missing values,loan_int_rate,3094,Filled with median
